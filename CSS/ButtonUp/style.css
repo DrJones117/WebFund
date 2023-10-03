@@ -1,0 +1,33 @@
+#searchButton {
+    height: 30px;
+    width: 150px;
+    border: solid;
+    border-radius: 15px;
+    border-color: rgba(51, 184, 189, 0.897);
+    color: rgba(51, 184, 189, 0.897);
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#plusButton {
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(51, 184, 189, 0.897);
+    color: white;
+    margin-bottom: 10px;
+}
+
+#createAccount {
+    height: 35px;
+    width: 175px;
+    border: solid black;
+    background-color: rgb(58, 58, 240);
+    color: white;
+    box-shadow: 3px 3px black;
+}
+
+#buttonBox {
+    margin: 50px;
+}
