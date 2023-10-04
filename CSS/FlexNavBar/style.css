@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+.nav {
+    height: 30px;
+    width: 700px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(66, 66, 66);
+    align-items: center;
+    color: white;
+    display: flex;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.nav-title {
+    margin-right: 165px;
+}
+
+.nav-links {
+    display: flex;
+    text-decoration: white;
+}
+
+.btn {
+    border: black solid;
+    box-shadow: black 3px 3px;
+    background: aqua;
+}
+
+li, a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
