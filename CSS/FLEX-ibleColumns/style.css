@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    background: rgb(241, 106, 73);
+    padding: 0.5%;
+    height: 50px;
+    margin: 1%;
+}
+
+.col-2 {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    background: rgb(241, 106, 73);
+    padding: 0.5%;
+    height: 50px;
+    margin: 1%;
+}
+
+.col-3 {
+    display: flex;
+    flex: 3;
+    align-items: center;
+    background: rgb(241, 106, 73);
+    padding: 0.5%;
+    height: 50px;
+    margin: 1%;
+}
