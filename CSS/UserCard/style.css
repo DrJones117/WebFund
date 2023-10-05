@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+#card-page {
+    display: flex;
+    justify-content: center;
+}
+
+.card-header {
+    height: 70px;
+    width: 500px;
+    background-color: aqua;
+    border: solid rgb(201, 201, 201);
+}
+
+.card-body {
+    height: 210px;
+    width: 500px;
+    background-color: white;
+    border: solid rgb(201, 201, 201);
+}
+
+.description {
+    margin: 10px 0px 0px 20px;
+}
+
+.user-image {
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    margin: 40px 0px 0px 20px;
+}
+
+.gear {
+    height: 15px;
+    width: 15px;
+}
+
+.map-marker {
+    height: 15px;
+    width: 10px;
+}
+
+.profile-name {
+    font-size: xx-large;
+    margin: 40px 0px 0px 20px;
+}
+
+a {
+    text-decoration: underline;
+    color: blue
+}
