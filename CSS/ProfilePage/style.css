@@ -1,0 +1,222 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+.nav {
+    height: 30px;
+    width: auto;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(15, 15, 15);
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin-left: 340px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    text-decoration: white;
+}
+
+.btn {
+    border: black solid;
+    box-shadow: black 3px 3px;
+    background: aqua;
+}
+
+li, a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* Here is the start of the user card CSS */
+
+#card-page {
+    margin: 2% 2% 4% 20%;
+    display: flex;
+}
+
+.card-header {
+    height: 70px;
+    width: 500px;
+    background-color: aqua;
+    border: solid black;
+}
+
+.card-body {
+    height: 210px;
+    width: 500px;
+    background-color: white;
+    border: solid black;
+}
+
+.description {
+    margin: 10px 0px 0px 20px;
+}
+
+.user-image {
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    margin: 40px 0px 0px 20px;
+    border: solid;
+    border-radius: 30px;
+}
+
+.gear {
+    height: 15px;
+    width: 15px;
+}
+
+.map-marker {
+    height: 15px;
+    width: 10px;
+}
+
+.profile-name {
+    font-size: xx-large;
+    margin: 40px 0px 0px 20px;
+}
+
+.edit-profile {
+    text-decoration: underline;
+    color: blue
+}
+
+.setting-link {
+    margin: 10px 0px 0px 20px;
+    display: flex;
+}
+
+/* Here is the start of the education card. */
+
+.education {
+    margin: 10% 5% 4% 0%;
+    width: 500px
+}
+
+.education-header {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 480px;
+    padding-left: 20px;
+    border: solid black;
+    color: white;
+    background-color: rgb(71, 71, 71);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.education-body {
+    height: 100px;
+    width: 460px;
+    padding: 20px;
+    border: solid gray;
+}
+
+.education-type {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.education-date {
+    color: gray;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.education-languages {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Here is the start of the connection request card */
+
+.connection-requests {
+    margin: 0.1% 0% 0% 25px;
+}
+
+.con-btn {
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+.connection-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 210px;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    border: solid black;
+}
+
+#connection-body {
+    height: 90px;
+    width: 210px;
+    border: solid;
+    display: flex;
+}
+
+.side-img {
+    height:  30px;
+    width: 30px;
+    border: solid; 
+    border-radius: 25px;
+    margin-right: 3px;
+}
+
+.people {
+    height: auto;
+    width: auto;
+    padding: 5px;
+    border: solid white;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.connection-btn {
+    height: 85px;
+    width: 40px;
+    padding-top: 5px;
+}
+
+/* Here is the start of the your connections card */
+
+#your-connections {
+    margin: 20px 0px 0px 24px
+}
+
+.your-connections-body {
+    height: 155px;
+    width: 200px;
+    border: solid;
+    padding: 5px
+}
+
+.view-more {
+    height: 50px;
+    width :210;
+    border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
