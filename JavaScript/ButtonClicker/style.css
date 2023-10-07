@@ -17,7 +17,7 @@
 }
 
 .shadow {
-    box-shadow: 2px 2px black;
+    box-shadow: 3px 3px black;
 }
 
 .text-center {
@@ -30,7 +30,7 @@
 
 .def-container {
     height: 200px;
-    width: 600px;
+    width: 550px;
     margin-bottom: 2%;
 }
 
@@ -57,7 +57,7 @@
 .like-button {
     height: 40px;
     width: 120px;
-    background-color: yellow;
+    background-color: rgb(253, 217, 56);
 }
 
 /* ======tag styles====== */
@@ -79,26 +79,27 @@ a {
     color: blue;
 }
 
+
 /* ======Id styles====== */
 
 #diction-body {
-    margin: 2% 0% 0% 0%;
+    margin-top: 35px;
 }
 
 #nav-bar {
     background-color:  lightgray;
-    height: 100px;
-    width: 1000px;
+    height: 75px;
+    width: 900px;
 }
 
 #col-1 {
     height: 600px;
-    width: 600px;
+    width: 550px;
 }
 
 #col-2 {
     height: 600px;
-    width: 400px;
+    width: 350px;
     margin-left: 2%;
 }
 
@@ -109,20 +110,19 @@ a {
     color: white;
 }
 
+#add-vertisment {
+    height: 175px;
+    width: 515;
+}
+
 #add-def {
     width: inherit;
     height: 100px;
 }
 
-#add-vertisment {
-    height: 175px;
-    width: 575;
-}
-
-
 #add-btn {
     height: 50px;
-    width: 300px;
-    background-color: palegreen;
+    width: 250px;
+    background-color: rgb(116, 196, 116);
     font-size: x-large;
 }
