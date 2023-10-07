@@ -1,0 +1,128 @@
+/* ======Reused Styles====== */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.border {
+    border: solid black;
+}
+
+.shadow {
+    box-shadow: 2px 2px black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.imp-text {
+    font-size: x-large;
+}
+
+.def-container {
+    height: 200px;
+    width: 600px;
+    margin-bottom: 2%;
+}
+
+.definition {
+    height: inherit;
+    width: inherit;
+}
+
+.text-box {
+    height: auto;
+    width: 300px;
+}
+
+.word {
+    height: 200px;
+    width: 175px;
+}
+
+.word-box {
+    width: inherit;
+    height: 125px;
+}
+
+.like-button {
+    height: 40px;
+    width: 120px;
+    background-color: yellow;
+}
+
+/* ======tag styles====== */
+
+h1 {
+    font-size: 300%;
+}
+
+h2 {
+    font-size: 200%
+}
+
+input {
+    height: 30px;
+    width: 300px;
+}
+
+a {
+    color: blue;
+}
+
+/* ======Id styles====== */
+
+#diction-body {
+    margin: 2% 0% 0% 0%;
+}
+
+#nav-bar {
+    background-color:  lightgray;
+    height: 100px;
+    width: 1000px;
+}
+
+#col-1 {
+    height: 600px;
+    width: 600px;
+}
+
+#col-2 {
+    height: 600px;
+    width: 400px;
+    margin-left: 2%;
+}
+
+#login-btn {
+    height: 30px;
+    width: 70px;
+    background-color: blue;
+    color: white;
+}
+
+#add-def {
+    width: inherit;
+    height: 100px;
+}
+
+#add-vertisment {
+    height: 175px;
+    width: 575;
+}
+
+
+#add-btn {
+    height: 50px;
+    width: 300px;
+    background-color: palegreen;
+    font-size: x-large;
+}
