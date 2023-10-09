@@ -7,9 +7,9 @@ function loginButton(element) {
 }
 
 function removeAddBtn(element) {
-    element.remove("#add-btn");
+    element.remove();
 }
 
-function alertLike(element) {
+function alertLike() {
     alert("Ninja was liked.");
 }
