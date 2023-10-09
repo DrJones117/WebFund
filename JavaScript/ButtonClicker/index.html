@@ -11,7 +11,7 @@
         <div id="nav-bar" class="flex">
             <h1   h1>Dojonary</h1>
             <input  class="border"type="text" placeholder=" Search...">
-            <button id="login-btn" class="border shadow">Login</button>
+            <button id="login-btn" class="border shadow" onclick="loginButton(this)">Login</button>
         </div>
     </div>
 
@@ -25,7 +25,7 @@
                             <p class="imp-text">noun</p>
                             <p>Plural: ninjas</p>
                         </div>
-                        <button class="like-button border shadow">13 Likes</button>
+                        <button class="like-button border shadow" onclick="alert('Ninja was liked.')">13 Likes</button>
                     </div>
                     <div class="definition imp-text flex">
                         <div class="text-box">
@@ -41,7 +41,7 @@
                             <p class="imp-text">noun</p>
                             <p>Plural: ninjas</p>
                         </div>
-                        <button class="like-button border shadow">37 Likes</button>
+                        <button class="like-button border shadow" onclick="alert('Ninja was liked.')">37 Likes</button>
                     </div>
                     <div class="definition imp-text flex">
                         <div class="text-box">
@@ -57,10 +57,11 @@
                     <div id="add-def">
                         <h2>Donjonary is defined by<span> You</span></h2>
                     </div>
-                    <button id="add-btn" class="shadow border">Add Definition</button>
+                    <button id="add-btn" class="shadow border" onclick="removeAddBtn(this)">Add Definition</button>
                 </div>
             </div>
         </div>
     </div>
     </body>
+    <script src="script.js"></script>
     </html>

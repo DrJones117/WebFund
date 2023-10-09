@@ -79,11 +79,15 @@ a {
     color: blue;
 }
 
+span {
+    font-size: 150%;
+}
+
 
 /* ======Id styles====== */
 
 #diction-body {
-    margin-top: 35px;
+    margin-top: 40px;
 }
 
 #nav-bar {
@@ -111,8 +115,7 @@ a {
 }
 
 #add-vertisment {
-    height: 175px;
-    width: 515;
+    padding: 10px;
 }
 
 #add-def {
