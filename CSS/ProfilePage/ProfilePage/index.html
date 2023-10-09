@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+
+    <div class="nav">
+        <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+                <li class="button">
+                    <button class="btn">Sign Out</button>
+                </li>
+            </ul>
+    </div>   
+    
+    <div id="card-page">
+        <div id="user-card">
+            <img class="user-image" src="arry-s.jpg" alt="user-profile">
+            
+            <div class="card-header"></div>
+            
+            <div class="card-body">
+                <div class="profile-name">Jo Shmo</div>
+                
+                <div class="description"><img class="map-marker" src="map-marker.png" alt="map-marker"> Moon: sector A</div>
+                
+                <div class="description">
+                    Developer | Engineer | Problem | Solver
+                    <div>Master of shadows and the Internet!</div>
+                </div>
+                
+                <div class="setting-link">
+                    <img class="gear" src="gear.png" alt="setting-symbol">
+                    <a class="edit-profile"> edit profile</a>
+                </div>
+            </div>
+
+            <div class="education">
+                <div class="education-header">Education</div>
+                <div class="education-body">
+                    <p class="education-type">Coding Dojo - FullStack Bootcamp</p>
+                    <p class="education-date">Adacular 2963 - Noctular - 2964</p>
+                    <p class="education-languages">Triple black belt in Javascript3000, MERN-2500 and C#%-</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="connections">
+            <div class="connection-requests">
+                <div class="connection-header">
+                <button class="con-btn">2</button>
+                Connection Requests
+            </div>
+                <div id="connection-body">
+                    <div class="people">
+                        <div class="person">
+                            <img class="side-img" src="adrien-s.jpg" alt="profile-pic">
+                            Poseiden E
+                        </div>
+                        <div class="person">
+                            <img class="side-img" src="todd-s.jpg" alt="profile-pic">
+                            Guy A
+                        </div>
+                    </div>
+                    <div class="accept connection-btn">
+                        <img class="side-img" src="accept-circle.png" alt="checkmark">
+                        <img class="side-img" src="accept-circle.png" alt="checkmark">
+                    </div>
+                    <div class="decline connection-btn">
+                        <img class="side-img" src="close-circle.png" alt="checkmark">
+                        <img class="side-img" src="close-circle.png" alt="checkmark">
+                    </div>
+                </div>
+            </div>
+
+            <div id="your-connections">
+                <div class="connection-header">
+                    <button class="con-btn">500+</button>
+                    Your Connections
+                </div>
+                <div class="your-connections-body">
+                    <div class="person">
+                        <img src="alayne-s.jpg" alt="profile-pic" class="side-img">
+                        Todo S
+                    </div>
+                    <div class="person">
+                        <img src="phil-s.jpg" alt="profile-pic" class="side-img">
+                        Nigel G
+                    </div>
+                    <div class="person">
+                        <img src="jane-m.jpg" alt="profile-pic" class="side-img">
+                        Jane D
+                    </div>
+                    <div class="person">
+                        <img src="anne-s.jpg" alt="profile-pic" class="side-img">
+                        Smithy Q
+                    </div>
+                </div>
+                <p class="view-more">
+                    View More
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
