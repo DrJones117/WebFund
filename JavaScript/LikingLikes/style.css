@@ -1,0 +1,107 @@
+/* ======Reused Styles====== */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.item-align {
+    align-items: center;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.border {
+    border: solid black;
+}
+
+.like-btn {
+    background-color: rgba(255, 230, 0, 0.938);
+    height: 15px;
+    width: 40px;
+    padding: 5px;
+    margin-left: 5px;
+    box-shadow: 3px 3px black;
+}
+
+.user-post {
+    height: 130px;
+    margin-bottom: 10px;
+}
+
+.user-status {
+    height: 40px;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+
+.user-likes {
+    width: 150px;
+    padding: 5px;
+}
+
+.post-text {
+    width: 350px;
+    padding: 10px;
+    font-size: large;
+}
+
+.link {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* ======Tag Styles====== */
+
+img {
+    height: 80px;
+    width: 80px
+}
+
+
+/* ======Id Styles====== */
+
+#page-body {
+    margin-top: 10px;
+}
+
+#col-1 {
+    margin-right: 20px;
+    height: 300px;
+    width: 200px;
+    text-align: center;
+}
+
+#col-1 > h2 {
+    font-size: xx-large;
+    margin-top: 30px;
+}
+
+#col-1 > a {
+    font-size: large;
+    color: blue;
+    text-decoration: underline;
+}
+
+#col-2 {
+    width: 420px;
+}
+
+#title-bar {
+    height: 40px;
+    width: 600px;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.profile {
+    margin: 30px;
+}

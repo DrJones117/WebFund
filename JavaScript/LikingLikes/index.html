@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking Likes</title>
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+    <div id="page-header" class="flex">
+        <h1 id="title-bar" class="border">Network</h1>
+    </div>
+    <h1 class="flex">Your Feed</h1>
+    <div id="page-body" class="flex">
+
+        <!-- Left column -->
+        <div id="col-1" class="border">
+            <div class="profile">
+                <img id="profile-img" src="user-circle.png" alt="user-profile">
+            </div>
+            <a>Add an avatar</a>
+            <h2>James Doe</h2>
+        </div>
+
+        <!-- Right column -->
+        <div id="col-2">
+            <div class="user-post border">
+                <div class="user-status flex item-align">
+                    <h2>Neil M</h2>
+                    <div class="user-likes flex item-align">
+                        <p id="likes1">0 Like(s)</p>
+                        <button class="like-btn border flex" onclick="likeBtn1()">Like</button>
+                    </div>
+                </div>
+                <p class="post-text">
+                    I just set up this new discord bot, let me know what you all think. <a class="link">Link</a>
+                </p>
+            </div>
+
+            <div class="user-post border">
+                <div class="user-status flex item-align">
+                    <h2>Nichole K</h2>
+                    <div class="user-likes flex item-align">
+                        <p id="likes2">0 Like(s)</p>
+                        <button class="like-btn  border flex" onclick="likeBtn2()">Like</button>
+                    </div>
+                </div>
+                <p class="post-text">
+                    Just finished my next <a class="link"> comic</a>, check it out.
+                </p>
+            </div>
+
+            <div class="user-post border">
+                <div class="user-status flex item-align">
+                    <h2>Jim R</h2>
+                    <div class="user-likes flex item-align">
+                        <p id="likes3">0 Like(s)</p>
+                        <button class="like-btn  border flex" onclick="likeBtn3()">Like</button>
+                    </div>
+                </div>
+                <p class="post-text">
+                    I can't stop listening to the <a class="link"> new album.</a> Who else is liking it?
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
