@@ -71,7 +71,7 @@ const expected6 = null;
 
 const nums7 = [2];
 const expected7 = null;
-
+           
 const nums8 = [];
 const expected8 = null;
 
