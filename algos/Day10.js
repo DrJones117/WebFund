@@ -7,7 +7,7 @@
 
   If the smallest integer occurs more than once, return the index of the first one.
 */
-
+  
 const nums1 = [5, 2, 3];
 const expected1a = 1;
 
